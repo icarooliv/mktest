@@ -77,3 +77,4 @@ source_suffix = ['.rst', '.md']
 #     'preamble': '',
 #     # 'figure_align': 'htbp'
 # }
+master_doc = 'index'
