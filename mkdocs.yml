@@ -1,8 +1,0 @@
-site_name: My Docs
-plugins:
-    - search
-    - mkpdfs:
-        company: The War Company Inc.
-        author: Monsieur Silvestre
-        toc_title: ToC
-theme: readthedocs
