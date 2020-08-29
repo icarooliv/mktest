@@ -1,4 +1,5 @@
 sphinx-rtd-theme
 recommonmark
-sphinx_markdown_tables
+sphinx-markdown-tables
 m2r2
+rinohtype
