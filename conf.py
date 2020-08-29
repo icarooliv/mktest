@@ -30,7 +30,7 @@ for i in range(15):
 extensions = [
     "sphinx_rtd_theme",
     # 'recommonmark',
-    'rinoh.frontend.sphinx',
+    # 'rinoh.frontend.sphinx',
     'sphinx_markdown_tables',
     'm2r2'
 ]
