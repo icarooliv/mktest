@@ -84,7 +84,21 @@ são representados na imagem abaixo. Os pequenos satélites começaram a ser uti
 universidade de maneira padrão no mundo todo para desenvolvimento de competências para
 engenharia aeroespacial inicialmente.
 
-![Image 1](img/img1.png)
+# Seletor de Frutas
+
+Mecanismo de seleção de frutas.
+
+```eval_rst
+.. figure:: assets/intro/img1.png
+  :align: center
+  :width: 400
+  :alt: Alternative text
+
+  ..
+
+  Fig 1: Estrutura dos subsistemas de um satélite
+
+```
 
 Porém como a engenharia aeroespacial é uma engenharia altamente integrativa, ou seja,
 necessita de conhecimentos de outras engenharias para construção de um objeto espacial, os

@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bem vindo à documentação do Test!
+Bem vindo à documentação do Pocket Cube!
 ======================================
 
 .. toctree::
@@ -11,5 +11,5 @@ Bem vindo à documentação do Test!
    :caption: Conteúdos:
 
    docs/pocket_cube
-   docs/intro/intro
-   docs/test
+   docs/intro
+   docs/tap
