@@ -3,3 +3,4 @@ recommonmark
 sphinx-markdown-tables
 m2r2
 rinohtype
+pygments >= 2.5.1
