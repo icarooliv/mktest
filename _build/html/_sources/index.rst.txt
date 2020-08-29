@@ -10,6 +10,6 @@ Bem vindo à documentação do Test!
    :maxdepth: 2
    :caption: Conteúdos:
 
-   docs/pocket_cube.md
-   docs/intro/intro.md
-   docs/test.rst
+   docs/pocket_cube
+   docs/intro/intro
+   docs/test

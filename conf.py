@@ -15,12 +15,18 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 
+# At top on conf.py (with other import statements)
+import recommonmark
+from recommonmark.transform import AutoStructify
+
+
 # -- Project information -----------------------------------------------------
 
 project = 'Test'
 author = ''
-for i in range(15):
-    author += f'author{i}\n'
+authors = ['Member 1', 'Member 1', 'Member 1', 'Member 1', 'Member 1', 'Member 1', 'Member 1']
+for a in authors:
+    author += f'{a}\n'
 
 # -- General configuration ---------------------------------------------------
 
@@ -30,9 +36,8 @@ for i in range(15):
 extensions = [
     "sphinx_rtd_theme",
     'recommonmark',
-    # 'rinoh.frontend.sphinx',
-    # 'sphinx_markdown_tables',
-    # 'm2r2'
+    'rinoh.frontend.sphinx',
+    'sphinx_markdown_tables',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -63,18 +68,26 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# source_suffix = {
-#     '.rst': 'restructuredtext',
-#     '.txt': 'markdown',
-#     '.md': 'markdown',
-# }
-source_suffix = ['.rst', '.md']
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 
 # latex_elements = {
 #     'papersize': 'letterpaper',
 #     'pointsize': '10pt',
 #     'preamble': '',
-#     # 'figure_align': 'htbp'
+#     'figure_align': 'H'
 # }
 master_doc = 'index'
+
+
+# At the bottom of conf.py
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+            'url_resolver': lambda url: github_doc_root + url,
+            'auto_toc_tree_section': 'Contents',
+            'enable_eval_rst': True
+            }, True)
+    app.add_transform(AutoStructify)
