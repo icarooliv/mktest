@@ -31,8 +31,8 @@ extensions = [
     "sphinx_rtd_theme",
     # 'recommonmark',
     # 'rinoh.frontend.sphinx',
-    'sphinx_markdown_tables',
-    'm2r2'
+    # 'sphinx_markdown_tables',
+    # 'm2r2'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
