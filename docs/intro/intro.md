@@ -84,7 +84,7 @@ são representados na imagem abaixo. Os pequenos satélites começaram a ser uti
 universidade de maneira padrão no mundo todo para desenvolvimento de competências para
 engenharia aeroespacial inicialmente.
 
-![alt](img/img1.png)
+![](img/img1.png)
 
 Porém como a engenharia aeroespacial é uma engenharia altamente integrativa, ou seja,
 necessita de conhecimentos de outras engenharias para construção de um objeto espacial, os

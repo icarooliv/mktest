@@ -23,10 +23,8 @@ from recommonmark.transform import AutoStructify
 # -- Project information -----------------------------------------------------
 
 project = 'Test'
-author = ''
-authors = ['Member 1', 'Member 1', 'Member 1', 'Member 1', 'Member 1', 'Member 1', 'Member 1']
-for a in authors:
-    author += f'{a}\n'
+author = 'Member 1\n Member 1\n Member 1\n Member 1\n Member 1\n Member 1\n Member 1'
+
 
 # -- General configuration ---------------------------------------------------
 
